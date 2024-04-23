@@ -25,13 +25,13 @@ for ($i = 0; $i < count($product_names); $i++) {
 
 $checkout_session = \Stripe\Checkout\Session::create([
     "mode" => "payment",
-    "success_url" => "http://localhost/success.php",
+    "success_url" => "http://localhost/E_commerce/success.php",
     "cancel_url" => "http://localhost/E_commerce/index.php",
     "locale" => "auto",
     "line_items" => $line_items,
 ]);
 
 http_response_code(303);
-header("Location: " . $checkout_session->url);
-
+//header("Location: " . $checkout_session->url);
+header("Location: success.php");
 ?>
