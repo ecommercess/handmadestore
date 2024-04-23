@@ -4,8 +4,6 @@ $sname = 'localhost';
 
 //$unmae= 'root';
 //$password = '';
-
-
 //$db_name = 'cart_db';
 
 $unmae= 'u232113837_card_db';
