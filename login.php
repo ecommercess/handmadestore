@@ -149,7 +149,7 @@ if(isset($_POST['login_submit'])) {
     
 <div class="wrapper">
     <div class="container">
-        <form action="Login.php" method="post" class="login-form">
+        <form action="login.php" method="post" class="login-form">
             <div class= "form">
                 <img src="logo.png" alt="Logo" width="160px"><br>
                 <h1>Welcome to <strong>HANDMADE TREASURESTORE</strong></h1>

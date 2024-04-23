@@ -41,7 +41,7 @@
 
             echo "<script>
             alert('Invalid User!');
-            window.location.href='Login.php';
+            window.location.href='login.php';
             </script>";
                 }
         }
