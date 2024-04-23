@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     VALUES ('$Username', '$Pass', '$First', '$Last', '$Middle', '$Address', '$Contact', '$Email')";
 
     if (mysqli_query($conn, $sql)) {
-        header("Location: Login.php");
+        header("Location: login.php");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
