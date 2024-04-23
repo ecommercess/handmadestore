@@ -2,11 +2,14 @@
 
 $sname= "localhost";
 
-$unmae= "root";
+//$unmae= "root";
+//$password = "";
+//$db_name = "cart_db";
 
-$password = "";
+$unmae= 'u232113837_';
+$password = '?Op6pDlp';
+$db_name = 'u232113837_card_db';
 
-$db_name = "cart_db";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 $con = mysqli_connect($sname, $unmae, $password, $db_name);
