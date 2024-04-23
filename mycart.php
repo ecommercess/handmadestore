@@ -22,7 +22,7 @@ if ($logged == false) {
     <?php
     $uid = $_SESSION['uid'];
     $sql = "SELECT * FROM tbl_cart WHERE uid = $uid";
-    $products = mysqli_query($con, $sql);
+    $products = mysqli_query($conn, $sql);
 
     while ($row = mysqli_fetch_array($products)) {
     ?>

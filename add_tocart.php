@@ -23,7 +23,7 @@ if ($logged == false) {
     <?php
     $uid = $_SESSION['uid'];
     $sql = "SELECT * FROM products";
-    $products = mysqli_query($con,$sql);
+    $products = mysqli_query($conn,$sql);
     while ($row = mysqli_fetch_array($products)){
     ?>     
     <div class="col">

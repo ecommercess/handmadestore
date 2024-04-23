@@ -20,7 +20,7 @@ if(isset($_POST['logout'])) {
     // Destroy the session
     session_destroy();
     // Redirect to login page or any other appropriate page
-    header("Location: Login.php");
+    header("Location: login.php");
     exit();
 }
 ?>
@@ -93,7 +93,7 @@ if(isset($_POST['logout'])) {
              <?php 
                  $uid = $_SESSION['uid'];
                  $sql = "SELECT * FROM products";
-                 $products = mysqli_query($con,$sql);
+                 $products = mysqli_query($conn,$sql);
                  while ($row = mysqli_fetch_array($products)){
                  ?>     
 

@@ -11,7 +11,7 @@ if(isset($_POST['addCart'])){
 
     $sql="INSERT INTO `tbl_cart`(`product_name`, `product_desc`, `product_price`, `img_path`,  `uid`) VALUES ('$name', '$product_desc', '$product_price',  '$path', '$uid')";
 
-    $result = mysqli_query($con,$sql);
+    $result = mysqli_query($conn,$sql);
 
     if($result) {
         echo "<script>alert('Item added to cart successfully.');</script>";

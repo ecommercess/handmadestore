@@ -98,7 +98,7 @@
         <input type="email" name="Email" required><br><br>
             <button type="submit" >Add User</button><br><br>
             <div class="back-link">
-        <a href="Login.php">Back</a>
+        <a href="login.php">Back</a>
     </div>
         </form>
 
