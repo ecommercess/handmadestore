@@ -25,7 +25,7 @@ for ($i = 0; $i < count($product_names); $i++) {
 
 $checkout_session = \Stripe\Checkout\Session::create([
     "mode" => "payment",
-    "success_url" => "handmadegoods.online/success.php",
+    "success_url" => "http://handmadegoods.online/success.php",
     "cancel_url" => "http://localhost/E_commerce/index.php",
     "locale" => "auto",
     "line_items" => $line_items,
