@@ -13,7 +13,7 @@ include("Config.php");
     } else {
         
     echo "<script>alert('You have been logged out.');</script>";
-    header("Location: Login.php");
+    header("Location: login.php");
     exit();
 }
 if(isset($_POST['logout'])) {
