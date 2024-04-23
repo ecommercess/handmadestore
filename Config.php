@@ -1,13 +1,13 @@
 <?php
 
-$sname= "localhost";
+$sname= 'localhost';
 
-//$unmae= "root";
-//$password = "";
-//$db_name = "cart_db";
+//$unmae= 'root;
+//$password = '';
+//$db_name = 'cart_db';
 
 $unmae= 'u232113837_';
-$password = '?Op6pDlp';
+$password = '?Op6pDIp';
 $db_name = 'u232113837_card_db';
 
 
