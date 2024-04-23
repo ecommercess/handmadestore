@@ -41,9 +41,9 @@
     <div class="main-content">
         <p class="main-content__body" data-lead-id="main-content-body">We can't wait for you to enjoy your new item.</p>
         <!-- Button below the message -->
-        <div class="main-content__button" >
+        <!--<div class="main-content__button" >
             <a href="orderstat.php" class="btn" style="color: black;">ORDER STATUS</a>
-        </div>
+        </div>-->
     </div>
 </body>
 </html>
