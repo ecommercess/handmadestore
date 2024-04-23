@@ -1,3 +1,8 @@
+<?php
+session_start();
+include("Config.php");
+?>
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -40,7 +45,6 @@
 
     <div class="main-content">
         <p class="main-content__body" data-lead-id="main-content-body">We can't wait for you to enjoy your new item.</p>
-        <!-- Button below the message -->
         <div class="main-content__button" >
             <a href="index.php" class="btn" style="color: black;">BACK TO HOME</a>
         </div>
