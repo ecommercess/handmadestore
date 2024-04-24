@@ -86,7 +86,7 @@ if(isset($_POST['logout'])) {
     </div>
     <!------Featured Products------>
         <div class="small-container">
-            <h2 class="title">Featured Products</h2>
+            <h2 class="title">Latest Products</h2>
             <div class="row">
 
              <?php 
@@ -119,7 +119,7 @@ if(isset($_POST['logout'])) {
             <?php }; ?>
         </div>
         <!-----LP-->
-        <h2 class="title">Latest Products</h2>
+        <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="pr5.jpg">
