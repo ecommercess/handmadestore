@@ -50,7 +50,7 @@ include 'Config.php';
         .product-display a{
             padding-right: 45%;
             padding-top: 20px;
-            
+
         }
   .button-container {
     color: black;
@@ -69,13 +69,14 @@ include 'Config.php';
     cursor: pointer;
   }
   button:hover {
-    background-color: #45a049;
+    background-color: white;
+    color: black
   }
 </style>
 </head>
 <body>
 <div class="button-container">
-  <button onclick="updateProduct()">Update product</button>
+  <button onclick="updateProduct()">Update Product</button>
 </div>
 <script>
   function updateProduct() {
