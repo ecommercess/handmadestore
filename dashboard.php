@@ -1,3 +1,5 @@
+
+You sent
 <?php
 
     require_once('session.php'); 
@@ -94,6 +96,8 @@
             <ul>
                 <li><a href="admin_page.php">Your Products</a></li>
                 <li><a href="infor.php">Your Informations</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Customers</a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
@@ -106,7 +110,7 @@
 
    $uid = $_SESSION['uid'];
 
-  $sql = "SELECT * FROM products";
+  $sql = "SELECT * FROM products WHERE uid != $uid";
   $products = mysqli_query($con,$sql);
 
   while ($row = mysqli_fetch_array($products)){
