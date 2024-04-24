@@ -94,8 +94,6 @@
             <ul>
                 <li><a href="admin_page.php">Your Products</a></li>
                 <li><a href="infor.php">Your Informations</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#">Customers</a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
