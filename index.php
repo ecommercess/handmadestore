@@ -41,7 +41,7 @@ if(isset($_POST['logout'])) {
         <div class = "container">
             <div class="navbar">
                 <div class="logo">
-                <img src="Logo.png" width="150px">
+                <img src="Logo.png" width="200px">
                 </div>
 
             <nav>

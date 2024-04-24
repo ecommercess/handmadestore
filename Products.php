@@ -19,7 +19,6 @@ include 'Config.php';
                 <div class="logo">
                 <img src="Logo.png">
                 </div>
-                <input type="text" id="search-input" onkeyup="filterPosts()" placeholder="Search...">
             <nav>
 
             <div class="product-display">
@@ -48,9 +47,11 @@ include 'Config.php';
     </table>
     <style>
   .button-container {
+    color: black;
     margin: 20px;
     display: flex;
     justify-content: center;
+    border-radius: 50%;
   }
   button {
     padding: 10px 20px;
