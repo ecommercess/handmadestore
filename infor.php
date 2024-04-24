@@ -40,7 +40,7 @@ $email=$test['Email'];
             text-align: center;
             color: #333;
             padding-top: 50px;
-            padding-left: 50px;
+            padding-left: 300px;
         }
 
         table {
@@ -48,6 +48,7 @@ $email=$test['Email'];
             border-collapse: collapse;
             margin-top: 20px;
             background-color: #fff;
+            padding-left: 30%;
         }
 
         th, td {
