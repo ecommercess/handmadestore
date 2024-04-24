@@ -30,7 +30,7 @@ $email=$test['Email'];
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            display: flex;
+            display: inline-block;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -39,6 +39,8 @@ $email=$test['Email'];
         h1 {
             text-align: center;
             color: #333;
+            padding-top: 50px;
+            padding-left: 50px;
         }
 
         table {
