@@ -15,8 +15,8 @@
 
     button[type="submit"] {
         height: 50px;
-        background-color: #9B3922;
-        color: #fff;
+        background-color: black;
+        color: white;
         border-radius: 25px;
     }
 
