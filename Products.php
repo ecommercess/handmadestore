@@ -57,9 +57,9 @@ include 'Config.php';
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #4CAF50; /* Green */
+    background-color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
   }
   button:hover {
@@ -111,8 +111,8 @@ include 'Config.php';
     padding-bottom: 50px;
 }
 .logo img{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 .container{
     height: 100vh;

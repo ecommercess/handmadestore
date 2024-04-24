@@ -193,7 +193,7 @@ if(isset($_GET['delete'])){
         font-size: 1.7rem;
         margin-top: 1rem;
         display: block;
-        width: 120%;
+        width: 160%;
         cursor: pointer;
         border-radius: .5rem;
         padding: 1rem 3rem;
