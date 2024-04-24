@@ -53,6 +53,7 @@ if(isset($_POST['login_submit'])) {
         cursor: pointer;
         display: block; 
         margin: auto;
+        border: 2px solid black;
         
     }
 
@@ -129,6 +130,8 @@ if(isset($_POST['login_submit'])) {
         background-color: #9B3922;
         color: #fff;
         transition: 200ms;
+        border-radius: 20px;
+        border: 2px solid black;
     }
 
     .create a:hover{
