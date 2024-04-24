@@ -52,7 +52,6 @@ if(isset($_POST['logout'])) {
                     <li><a href ="mycart.php">MY ORDER</a></li>
                 </ul>
             </nav>
-            <a href ="mycart.php"><img src="Add.png" style="margin: 20px;"></a>
             <form method="post">
     <button type="submit" name="logout">Logout</button>
 </form>
