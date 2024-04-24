@@ -47,7 +47,7 @@ if(isset($_POST['logout'])) {
             <nav>
                 <ul>
                     <li><a href ="About.html">ABOUT US</a></li>
-                    <li><a href ="Products.php">MY PRODUCTS</a></li>
+                    <li><a href ="admin_page.php">MY PRODUCTS</a></li>
                     <li><a href ="dashboard.php">DASHBOARD</a></li>
                     <li><a href ="mycart.php">MY ORDER</a></li>
                     <li><form method="post">
