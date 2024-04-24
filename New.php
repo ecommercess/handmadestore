@@ -14,14 +14,15 @@
     }
 
     button[type="submit"] {
+        height: 8px;
         background-color: #9B3922;
         color: #fff;
         border-radius: 25px;
     }
 
     button[type="submit"]:hover {
-        background-color: #795458;
-        color: #fff;
+        background-color: black;
+        color: white;
         border-radius: 25px;
     }
 
@@ -71,6 +72,9 @@
 
     .container button{
         width: 250px;
+    }
+    .back-link a{
+        border: 2px solid black;
     }
     </style>
 
