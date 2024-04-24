@@ -21,8 +21,8 @@
     }
 
     button[type="submit"]:hover {
-        background-color: white;
-        color: black;
+        background-color: brown;
+        color: white;
         border-radius: 25px;
     }
 
@@ -44,24 +44,24 @@
     }
     .back-link a{
         text-decoration: none;
-        background-color: #9B3922;
+        background-color: black;
         padding-left: 20%;
         padding-right: 20%;
         padding-top: 1%;
         padding-bottom: 1%;
-        color: #Fff;
+        color: white;
         border-radius: 25px;
         transition: 200ms;
     }
 
     .back-link a:hover{
         text-decoration: none;
-        background-color: #795458;
+        background-color: brown;
         padding-left: 20%;
         padding-right: 20%;
         padding-top: 1%;
         padding-bottom: 1%;
-        color: #000;
+        color: white;
     }
 
 
