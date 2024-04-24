@@ -34,7 +34,7 @@ $email=$test['Email'];
             justify-content: center;
             align-items: center;
             height: 100vh;
-            width: 100%;
+            width: 50%;
         }
 
         h1 {
