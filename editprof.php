@@ -112,15 +112,13 @@ $email=$test['Email'];
         input[type="submit"] {
             width: 100%;
             padding: 10px;
-            background-color: brown;
+            background-color: black;
             color: #fff;
             border: none;
             border-radius: 3px;
             cursor: pointer;
         }
-        input[type="submit"]:hover {
-            background-color: black;
-        }
+       
         p {
             text-align: start;
             margin-top: 20px;

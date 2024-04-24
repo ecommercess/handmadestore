@@ -22,6 +22,7 @@ include 'Config.php';
             <nav>
 
             <div class="product-display">
+                <a>HERE ARE YOUR PRODUCTS</a>
     <table class="product-display-table">
         <thead>
             <tr>
@@ -59,7 +60,7 @@ include 'Config.php';
     color: white;
     background-color: black;
     border: none;
-    border-radius: 50%;
+    border-radius: 10px;
     cursor: pointer;
   }
   button:hover {
