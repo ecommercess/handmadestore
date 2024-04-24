@@ -43,6 +43,7 @@ $email=$test['Email'];
             padding-left: 300px;
             margin-left: 40%;
             margin-right: 250;
+            width: 100%;
         }
 
         table {
