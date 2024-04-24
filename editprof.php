@@ -90,7 +90,7 @@ $email=$test['Email'];
             position: relative;
             align-items: center;
             text-align: center;
-            padding-left: 38%;
+            padding-left: 32%;
         }
         .post{
             align-items: center;
@@ -144,8 +144,8 @@ $email=$test['Email'];
 </head>
 <body>
 <body>
-    <h2>Edit Profile</h2>
     <p><a href="index.php">Back to Dashboard</a></p>
+    <h2>Edit Profile</h2>
     <form method="post" action="editprof.php">
         <label for="Username">Username:</label><br>
         <input type="text" id="Username" name="Username" value="<?php echo $username; ?>"><br>
