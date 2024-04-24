@@ -124,7 +124,7 @@ if(isset($_POST['logout'])) {
         <div class="row">
             <div class="col-4">
                 <img src="pr5.jpg">
-                <a href ="Products.php"><h4>Hand-Made Sandals</h4></a>
+                <h4>Hand-Made Sandals</h4></a>
                 <div class="rating">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -136,7 +136,7 @@ if(isset($_POST['logout'])) {
             </div>
             <div class="col-4">
                 <img src="pr6.jpg">
-                <a href ="Products.php"><h4>Puzzle Keychain</h4></a>
+               <h4>Puzzle Keychain</h4></a>
                 <div class="rating">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -148,7 +148,7 @@ if(isset($_POST['logout'])) {
             </div>
             <div class="col-4">
                 <img src="pr7.jpg">
-                <a href ="Products.php"><h4>Yarn-Made Flower Bouquet</h4></a>
+                <h4>Yarn-Made Flower Bouquet</h4></a>
                 <div class="rating">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -160,7 +160,7 @@ if(isset($_POST['logout'])) {
             </div>
             <div class="col-4">
                 <img src="pr8.jpg">
-                <a href ="Products.php"><h4>Anime Glass Painting</h4></a>
+                <h4>Anime Glass Painting</h4></a>
                 <div class="rating">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -173,7 +173,7 @@ if(isset($_POST['logout'])) {
             <div class="row">
                 <div class="col-4">
                     <img src="pr9.jpg">
-                    <a href ="Products.php"><h4>Handmade Bouquet</h4></a>
+                   <h4>Handmade Bouquet</h4></a>
                     <div class="rating">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -185,7 +185,7 @@ if(isset($_POST['logout'])) {
                 </div>
                 <div class="col-4">
                     <img src="pr10.jpg">
-                    <a href ="Products.php"><h4>Handmade Bouquet</h4></a>
+                    <h4>Handmade Bouquet</h4></a>
                     <div class="rating">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -197,7 +197,7 @@ if(isset($_POST['logout'])) {
                 </div>
                 <div class="col-4">
                     <img src="pr11.jpg">
-                    <a href ="Products.php"><h4>Yarn-Made Flower Bouquet</h4></a>
+                    <h4>Yarn-Made Flower Bouquet</h4></a>
                     <div class="rating">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -209,7 +209,7 @@ if(isset($_POST['logout'])) {
                 </div>
                 <div class="col-4">
                     <img src="pr12.jpg">
-                    <a href ="Products.php"><h4>Yarn-made plant in a Pot</h4></a>
+                    <h4>Yarn-made plant in a Pot</h4></a>
                     <div class="rating">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -230,11 +230,10 @@ if(isset($_POST['logout'])) {
                     </div>
                     <div class="col-2">
                         <p>EXCLUSIVE PRODUCT</p>
-                        <a href ="Products.php"><h1>Garden Elegance</h1></a>
+                        <h1>Garden Elegance</h1></a>
                         <small>
                             Introducing the exquisite "Garden Elegance" flower bouquet – a harmonious
                              blend of nature's finest blooms crafted to elevate any occasion. <br></small>
-                        <a href="Products.php"class="btn">Buy Now &#8594;</a>
                     </div>
                 </div>
             </div>

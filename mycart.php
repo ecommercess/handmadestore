@@ -13,6 +13,27 @@ if ($logged == false) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MY CART</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: brown;
+}
+
+.btn:hover {
+  background-color: black;
+}
+        </style>
 </head>
 <body>
 

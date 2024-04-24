@@ -7,7 +7,7 @@ if(isset($_SESSION['logged']))
     if ($_SESSION['logged'] == true)
     {
         if ($_SESSION['account']=="user") {
-                header("Location:dashboard.php");
+                header("Location:index.php");
             }
     }  
     else  {
