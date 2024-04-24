@@ -40,7 +40,7 @@ $email=$test['Email'];
             text-align: center;
             color: #333;
             padding-top: 50px;
-            padding-left: 300px;
+            padding-left: 100px;
             margin-left: 30%;
             margin-right: 250;
             width: 100%;
