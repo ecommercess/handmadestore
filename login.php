@@ -151,7 +151,7 @@ if(isset($_POST['login_submit'])) {
     <div class="container">
         <form action="login.php" method="post" class="login-form">
             <div class= "form">
-                <img src="logo.png" alt="Logo" width="160px"><br>
+                <img src="Logo.png" alt="Logo" width="160px"><br>
                 <h1>Welcome to <strong>HANDMADE TREASURESTORE</strong></h1>
             <label>Username</label>
             <input type="text" name="username" required placeholder="User Name"><br>
