@@ -61,7 +61,6 @@ if(isset($_POST['logout'])) {
             <div class="col-2">
                 <h1>HANDMADE TREASURESTORE</h1>
                 <p>Treasure Every Occasion</p>
-                <a href="Products.php" class="btn">EXPLORE NOW &#8594;</a>
             </div>
             <div class="col-2">
                 <img src ="image.jpg">

@@ -33,6 +33,9 @@ if ($logged == false) {
 .btn:hover {
   background-color: black;
 }
+.row row-cols-1 row-cols-md-3 g-4{
+    padding: 30px;
+}
         </style>
 </head>
 <body>
@@ -56,7 +59,7 @@ if ($logged == false) {
                     <input type="hidden" name="product_name[]" value="<?php echo htmlspecialchars($row['product_name']); ?>">
                     <input type="number" name="quantity[]" min="1" value="1" class="form-control">
                     <input type="hidden" name="unit_price[]" value="<?php echo $row['product_price']; ?>">
-                    <p>Price: $<?php echo $row['product_price']; ?></p>
+                    <p>Price: ₱ <?php echo $row['product_price']; ?></p>
                     <button formaction="remove_from_cart.php?product_id=<?php echo $row['id']; ?>" class="btn btn-danger">Remove</button>
                 </div>
             </div>
