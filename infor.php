@@ -42,7 +42,7 @@ $email=$test['Email'];
         }
 
         table {
-            width: 50%;
+            width: 70%;
             border-collapse: collapse;
             margin-top: 20px;
             background-color: #fff;
