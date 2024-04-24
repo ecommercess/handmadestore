@@ -41,7 +41,7 @@ $email=$test['Email'];
             color: #333;
             padding-top: 50px;
             padding-left: 300px;
-            margin-left: 40%;
+            margin-left: 30%;
             margin-right: 250;
             width: 100%;
         }
