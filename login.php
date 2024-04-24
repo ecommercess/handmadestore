@@ -135,7 +135,7 @@ if(isset($_POST['login_submit'])) {
         border: 2px solid black;
     }
 
-    .create a:hover{
+    .create a:hoer{
         text-align: center;
         background-color: #fff;
         color: #000;
