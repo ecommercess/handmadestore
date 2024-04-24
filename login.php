@@ -54,6 +54,7 @@ if(isset($_POST['login_submit'])) {
         display: block; 
         margin: auto;
         border: 2px solid black;
+        transition: 300ms;
         
     }
 
@@ -129,7 +130,7 @@ if(isset($_POST['login_submit'])) {
         text-align: center;
         background-color: #9B3922;
         color: #fff;
-        transition: 200ms;
+        transition: 300ms;
         border-radius: 20px;
         border: 2px solid black;
     }
