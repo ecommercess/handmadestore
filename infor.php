@@ -41,7 +41,8 @@ $email=$test['Email'];
             color: #333;
             padding-top: 50px;
             padding-left: 300px;
-            margin: 40%;
+            margin-left: 40%;
+            margin-right: 40%;
         }
 
         table {
@@ -50,7 +51,8 @@ $email=$test['Email'];
             margin-top: 20px;
             background-color: #fff;
             padding-left: 30%;
-            margin: 40%;
+            margin-left: 40%;
+            margin-right: 40%;
         }
 
         th, td {
