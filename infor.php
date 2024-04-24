@@ -39,6 +39,8 @@ $email=$test['Email'];
         h1 {
             text-align: center;
             color: #333;
+            padding-bottom: 70%;
+            padding-left: 40%;
         }
 
         table {
