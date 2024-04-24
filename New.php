@@ -14,7 +14,7 @@
     }
 
     button[type="submit"] {
-        height: 8px;
+        height: 50px;
         background-color: #9B3922;
         color: #fff;
         border-radius: 25px;
