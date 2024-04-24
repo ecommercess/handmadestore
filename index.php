@@ -38,9 +38,6 @@ if(isset($_POST['logout'])) {
         .logo{
             padding-top: 50px;
         }
-        nav{
-            background-color: peru;
-        }
     </style>
     </head>
     <body>

@@ -6,7 +6,7 @@
 body{font-family: "Poppins", sans-serif;
 }
 .navbar{
-    display: inline-block;
+    display: flex;
     align-items: center;
     padding: 20px;
 }
@@ -14,17 +14,14 @@ nav{
     display: inline-flex;
     flex:1;
     text-align: right;
-    position: sticky;
 }
 nav ul{
     display: inline-block;
     list-style-type: none;
-    position: sticky;
 }
 nav ul li {
     display: inline-block;
     margin-right: 20px;
-    position: sticky;
 }
 a{
     text-decoration: none;
