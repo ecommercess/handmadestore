@@ -47,6 +47,11 @@ include 'Config.php';
         </tbody>
     </table>
     <style>
+        .product-display a{
+            padding-right: 45%;
+            padding-top: 20px;
+            
+        }
   .button-container {
     color: black;
     margin: 20px;
