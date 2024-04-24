@@ -30,7 +30,7 @@
     }
 
     .container{
-        margin-left: 30%;
+        margin-left: 35%;
         width: 30%;
         align-items: center;
         text-align: center;
