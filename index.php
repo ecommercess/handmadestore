@@ -50,11 +50,12 @@ if(isset($_POST['logout'])) {
                     <li><a href ="Products.php">MY PRODUCTS</a></li>
                     <li><a href ="dashboard.php">DASHBOARD</a></li>
                     <li><a href ="mycart.php">MY ORDER</a></li>
-                </ul>
-            </nav>
-            <form method="post">
+                    <form method="post">
     <button type="submit" name="logout">Logout</button>
 </form>
+                </ul>
+            </nav>
+    
         </div>
         <div class="row">
             <div class="col-2">
