@@ -21,8 +21,8 @@
     }
 
     button[type="submit"]:hover {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: black;
         border-radius: 25px;
     }
 
