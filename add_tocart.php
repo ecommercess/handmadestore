@@ -15,6 +15,7 @@ if ($logged == false) {
     <style>
         .btn btn-warning{
             background-color: peru;
+            padding-left: 20px;
         }
         </style>
 
