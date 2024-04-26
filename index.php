@@ -4,7 +4,7 @@ include("Config.php");
 ?>
 <?php
 
-// Check if the user is logged in
+
     if (isset($_SESSION['username'])) {
         $username = $_SESSION['username'];
         echo "<script>alert('Welcome to Handmade Treasurestore,' $username' !);</script>";
@@ -17,9 +17,9 @@ include("Config.php");
     exit();
 }
 if(isset($_POST['logout'])) {
-    // Destroy the session
+   
     session_destroy();
-    // Redirect to login page or any other appropriate page
+   
     header("Location: login.php");
     exit();
 }
@@ -68,7 +68,7 @@ if(isset($_POST['logout'])) {
             </div>
         </div>
     </div>
-<!------Featured------>
+
     <div class="categories">
         <div class="small-container">
             <div class="row">

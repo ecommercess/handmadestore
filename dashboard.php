@@ -1,5 +1,4 @@
 
-You sent
 <?php
 
     require_once('session.php'); 
@@ -14,22 +13,22 @@ You sent
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Dashboard</title>
-    <style>/* styles.css */
+    <style>
 
-        /* Resetting default margin and padding */
+      
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
-        /* Body styles */
+       
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
         }
         
-        /* Header styles */
+        
         header {
             background-color: #333;
             color: #fff;
@@ -41,7 +40,7 @@ You sent
             margin: 0;
         }
         
-        /* Navigation styles */
+       
         nav ul {
             list-style-type: none;
             margin: 10px 0;
@@ -59,12 +58,12 @@ You sent
             font-weight: bold;
         }
         
-        /* Main styles */
+       
         main {
             padding: 20px;
         }
         
-        /* Section styles */
+        
         section {
             margin-bottom: 30px;
             background-color: #fff;
@@ -77,7 +76,7 @@ You sent
             margin-bottom: 10px;
         }
         
-        /* Footer styles */
+       
         footer {
             background-color: #333;
             color: #fff;
@@ -98,7 +97,7 @@ You sent
                 <li><a href="infor.php">Your Informations</a></li>
                 <li><a href="#"></a></li>
                 <li><a href="#">Customers</a></li>
-                <!-- Add more navigation links as needed -->
+               
             </ul>
         </nav>
     </header>

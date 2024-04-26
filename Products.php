@@ -35,7 +35,7 @@ include 'Config.php';
             <?php
             $select = mysqli_query($conn, "SELECT * FROM products");
             while($row = mysqli_fetch_assoc($select)){
-                // Generate link for payment page with product ID as parameter
+               
                 $payment_link = "#" . $row['id'];
             ?>
             <tr>
@@ -80,7 +80,7 @@ include 'Config.php';
 </div>
 <script>
   function updateProduct() {
-    // Redirects to the admin_page.php
+   
     window.location.href = 'admin_page.php';
   }
 </script>
@@ -136,38 +136,38 @@ include 'Config.php';
 
 .product-display-table th,
 .product-display-table td {
-    border: 1px solid #ddd; /* Use a light gray border */
+    border: 1px solid #ddd; 
     padding: 10px;
     text-align: left;
 }
 
 .product-display-table th {
-    background-color: #f0f2f5; /* Light background color for headers */
+    background-color: #f0f2f5;
     font-weight: bold;
 }
 
 .product-display-table td.product-image img {
-    max-height: 150px; /* Adjust image height */
-    max-width: 150px; /* Adjust image width */
-    display: block; /* Ensure images are displayed as blocks */
-    margin: 0 auto; /* Center images horizontally */
+    max-height: 150px;
+    max-width: 150px; 
+    display: block; 
+    margin: 0 auto; 
     display: flex;
     flex-direction: row;
 }
 
 .product-display-table td.product-name {
     font-weight: bold;
-    color: #333; /* Dark text color for product names */
-    padding-top: 10px; /* Add space between image and name */
+    color: #333; 
+    padding-top: 10px; 
 }
 
 .product-display-table td.product-price {
-    color: #e74c3c; /* Red color for prices */
-    font-size: 16px; /* Adjust font size */
+    color: #e74c3c; 
+    font-size: 16px; 
 }
 
 .product-display-table td.product-description {
-    color: #666; /* Gray color for descriptions */
+    color: #666; 
 }
 
 .product-display-table td.product-button {
@@ -177,8 +177,8 @@ include 'Config.php';
 
 .product-display-table td.product-button a {
     display: inline-block;
-    background-color: #ff9800; /* Orange button background color */
-    color: #fff; /* White text color */
+    background-color: #ff9800; 
+    color: #fff; 
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 5px;
@@ -186,7 +186,7 @@ include 'Config.php';
 }
 
 .product-display-table td.product-button a:hover {
-    background-color: #f57c00; /* Darker orange on hover */
+    background-color: #f57c00;
 }
 .footer{
     width: 100%;

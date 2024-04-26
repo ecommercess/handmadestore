@@ -5,11 +5,11 @@
          header("Location:index.php");
     }
 
-// Check if the session variable is set and not empty
+
 if(isset($_SESSION['uid']) && !empty($_SESSION['uid'])) {
-    $uid = mysqli_real_escape_string($conn, $_SESSION['uid']); // Sanitize the session variable
+    $uid = mysqli_real_escape_string($conn, $_SESSION['uid']); 
 } else {
-    // Handle the case where the session variable is not set or empty
+    
     echo "Error: User ID not found in session.";
 }
 
@@ -22,11 +22,11 @@ if(isset($_POST['updateData'])){
     $Email = mysqli_real_escape_string($conn, $_POST['Email']);
     $Contact = mysqli_real_escape_string($conn, $_POST['Contact']);
 
-    // Enclose string values in single quotes
+    
     $query = "UPDATE userdata SET Username = '$Username', First = '$First', Middle = '$Middle', Last = '$Last', Address = '$Address', Contact = '$Contact', Email = '$Email' WHERE id = $uid";
     $query_run = mysqli_query($conn, $query);
 
-    // Check for errors
+    
     if(!$query_run) {
         echo 'Error: ' . mysqli_error($conn);
     } else {
@@ -35,7 +35,7 @@ if(isset($_POST['updateData'])){
 }
 
 
-//Displaying the Data in the input
+
 $id = $_SESSION['uid'];
 $result = mysqli_query($conn, "SELECT * FROM userdata WHERE id = '$id'");
 $test = mysqli_fetch_array($result);

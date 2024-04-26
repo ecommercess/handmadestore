@@ -1,18 +1,17 @@
 <?php
 session_start();
 include("Config.php");
-// Check if a product ID is provided in the URL parameter
+
 if(isset($_GET['product_id'])) {
     $product_id = $_GET['product_id'];
 
-    // Fetch product details from the database based on the product ID
-    // This code should be similar to what you used in the product display page
+    
     $select_product = mysqli_query($conn, "SELECT * FROM products WHERE id = '$product_id'");
     $product = mysqli_fetch_assoc($select_product);
 
-    // Check if the product exists
+    
     if($product) {
-        // Now, you can display the product information and handle the payment process
+       
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +19,7 @@ if(isset($_GET['product_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Page</title>
-    <!-- Include any necessary CSS stylesheets -->
+   
 </head>
 <body>
 <div class="Pay">
@@ -31,10 +30,9 @@ if(isset($_GET['product_id'])) {
         <?php endif; ?>
         <h2><?php echo $product['Name']; ?></h2>
         <p>Price: ₱<?php echo $product['Price']; ?></p>
-        <!-- Here you can include a payment form or button to proceed with the payment process -->
-        <!-- Example payment form -->
+       
         <form action="process_payment.php" method="POST">
-            <!-- Include necessary form fields for payment -->
+            
             <input type="hidden" name="product_id" value="<?php echo $product['id']; ?>">
             <input type="submit" value="Proceed to Payment">
         </form>
@@ -43,16 +41,16 @@ if(isset($_GET['product_id'])) {
 </html>
 <?php
     } else {
-        // If the product doesn't exist, display an error message or redirect to an error page
+       
         echo "Product not found!";
     }
 } else {
-    // If product ID is not provided, display an error message or redirect to an error page
+    
     echo "Product ID not provided!";
 }
 ?>
 <style>
-    /* CSS for Payment Page */
+   
 body {
     font-family: Arial, sans-serif;
     background: radial-gradient(#fff,#ffd6d6);

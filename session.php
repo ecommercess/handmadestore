@@ -2,7 +2,7 @@
     include('Config.php');
     session_start();
     $logged = false;
-    //checking who logged in the admin or the user
+    
     if(isset($_SESSION['logged']))
     {
         if ($_SESSION['logged'] == true)
@@ -22,7 +22,7 @@
             $username=$_POST['username'];
             $password=$_POST['pass'];            
               
-            //user LOG-IN checking
+            
             $sql = "SELECT * FROM userdata WHERE username='$username' AND Pass='$password' ";
 
             $result = mysqli_query($con,$sql);

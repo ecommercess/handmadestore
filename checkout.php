@@ -15,7 +15,7 @@ for ($i = 0; $i < count($product_names); $i++) {
         'quantity' => $quantities[$i],
         'price_data' => [
             'currency' => 'php',
-            'unit_amount' => $unit_prices[$i] * 100, // Stripe expects cents
+            'unit_amount' => $unit_prices[$i] * 100, 
             'product_data' => [
                 'name' => $product_names[$i],
             ],
