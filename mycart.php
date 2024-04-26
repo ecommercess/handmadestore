@@ -44,6 +44,8 @@ a{
     border: 2px solid peru;
     border-radius: 4px;
     background-color: peru;
+    padding-right: 10px;
+    font-size: 30px;
 }
 a:hover{
     background-color:black ;
