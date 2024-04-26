@@ -37,8 +37,19 @@ if ($logged == false) {
     padding: 30px;
 }
 a{
-  text-decoration: none;
-    color: black}
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-top: 8px;
+    border: 2px solid peru;
+    border-radius: 4px;
+    background-color: peru;
+}
+a:hover{
+    background-color:black ;
+    color: white;
+
+}
 
         </style>
 </head>
