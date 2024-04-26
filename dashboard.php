@@ -86,6 +86,10 @@
             bottom: 0;
             width: 100%;
         }
+        .row row-cols-1 row-cols-md-3 g-4{
+            height: 100%;
+            padding-bottom: 10px;
+        }
         </style>
 </head>
 <body>
