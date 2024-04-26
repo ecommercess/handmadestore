@@ -39,6 +39,7 @@ if ($logged == false) {
         </style>
 </head>
 <body>
+<a href="add_tocart.php">Back</a>
 
 <h1 class="text-center">MY CART</h1>
 <form method="post" action="checkout.php">
