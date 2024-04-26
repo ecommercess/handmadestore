@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 
 require_once('session.php');
 if ($logged == false) {
@@ -60,23 +61,30 @@ a:hover{
 
 <h1 class="text-center">MY CART</h1>
 <form method="post" action="checkout.php">
+
+
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
     <?php
+    error_reporting(E_ALL);
+
     $uid = $_SESSION['uid'];
     $sql = "SELECT * FROM tbl_cart WHERE uid = $uid";
     $products = mysqli_query($conn, $sql);
 
     while ($row = mysqli_fetch_array($products)) {
     ?>
+    <input type="hidden" name="qty_id[]" value="<?php echo $row['id']; ?>">
+    <input type="hidden" name="uid" value="<?php echo $_SESSION['uid']; ?>">
         <div class="col">
             <div class="card h-100">
                 <img src="uploads_img/<?php echo $row['img_path']; ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $row['product_name']; ?></h5>
                     <p class="card-text"><?php echo $row['product_desc']; ?></p>
-                    <input type="hidden" name="product_name[]" value="<?php echo htmlspecialchars($row['product_name']); ?>">
-                    <input type="number" name="quantity[]" min="1" value="1" class="form-control">
-                    <input type="hidden" name="unit_price[]" value="<?php echo $row['product_price']; ?>">
+                    <input type="hidden" name="product_name[]" value="<?php echo $row['product_name']; ?>">
+                    <input type="number" name="quantity[]" min="1"  class="form-control">
+                    <input type="hidden" name="price[]" value="<?php echo $row['product_price']; ?>">
                     <p>Price: ₱ <?php echo $row['product_price']; ?></p>
                     <button formaction="remove_from_cart.php?product_id=<?php echo $row['id']; ?>" class="btn btn-danger">Remove</button>
                 </div>

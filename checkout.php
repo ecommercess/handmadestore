@@ -35,4 +35,44 @@ http_response_code(303);
 header("Location: " . $checkout_session->url);
 
 
+
+include('Config.php');
+
+
+if(isset($_POST['qty_id']) && is_array($_POST['qty_id']) && !empty($_POST['qty_id'])) {
+    foreach ($_POST['qty_id'] as $key => $quantity_id) {
+        $name = $_POST['product_name'][$key];
+        $cost = $_POST['price'][$key];
+        $qty = $_POST['quantity'][$key];
+        $uid = $_POST['uid'];
+        $id = $quantity_id;
+
+
+        $sql = "INSERT INTO tbl_orders (product_name, product_price, product_qty, uid) VALUES (?, ?, ?, ?)";
+
+
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("ssii", $name, $cost, $qty, $uid);
+
+        if ($stmt->execute()) {
+                echo "<script>
+                alert('Order Placed!');
+                window.location.href='dashboard.php';
+                </script>";
+        } else {
+            echo "Error updating record: " . $stmt->error;
+        }
+
+        $stmt->close();
+    }
+} else {
+    echo "No data received or invalid data format.";
+}
+
+// Close connection
+$conn->close();
+
+?>
+
+
 ?>
