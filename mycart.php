@@ -36,6 +36,10 @@ if ($logged == false) {
 .row row-cols-1 row-cols-md-3 g-4{
     padding: 30px;
 }
+a{
+  text-decoration: none;
+    color: black}
+
         </style>
 </head>
 <body>
