@@ -36,16 +36,17 @@ if ($logged == false) {
 .row row-cols-1 row-cols-md-3 g-4{
     padding: 30px;
 }
-a{
+a{  
+    margin-left: 5px;
+    margin-top: 5px;
     text-decoration: none;
     color: black;
     padding-left: 10px;
     padding-top: 8px;
-    border: 2px solid peru;
     border-radius: 4px;
     background-color: peru;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 a:hover{
     background-color:black ;
