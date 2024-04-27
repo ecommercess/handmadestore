@@ -167,6 +167,12 @@ small{
 .footer-col-2 p{
     color: black;
 }
+button[type = "submit"]{
+    text-decoration: none;
+    
+
+}
+
 
 
 
