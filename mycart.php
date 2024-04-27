@@ -53,6 +53,10 @@ a:hover{
     color: white;
 
 }
+.col{
+    width: 40px;
+    height: 50px;
+}
 
         </style>
 </head>
