@@ -56,6 +56,8 @@ a:hover{
 .col{
     width: 25%;
     height: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
         </style>
