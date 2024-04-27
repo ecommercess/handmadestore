@@ -54,7 +54,7 @@ a:hover{
 
 }
 .col{
-    width: 20%;
+    width: 25%;
     height: 50%;
 }
 
