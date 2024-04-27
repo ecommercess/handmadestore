@@ -31,7 +31,6 @@ if ($logged == false) {
             <img src="uploads_img/<?php echo $row['image']; ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $row['Name']; ?></h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <form method="POST" action="addtocartFunction.php">
                     <input type="hidden" name="img_path" value="<?php echo $row['image']; ?>">
                     <input type="hidden" name="name" value="<?php echo $row['Name']; ?>">
